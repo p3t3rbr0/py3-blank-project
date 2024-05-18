@@ -1,10 +1,10 @@
 # blank-project
 
-<!-- ![Build Status](https://github.com/<username>/<reponame>/actions/workflows/ci.yaml/badge.svg?branch=master) -->
-<!-- ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/<reponame>) -->
-<!-- ![PyPI Version](https://img.shields.io/pypi/v/<reponame>) -->
-<!-- [![Code Coverage](https://codecov.io/gh/<username>/<reponame>/graph/badge.svg?token=<token>)](https://codecov.io/gh/<username>/<reponame>) -->
-<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/<id>/maintainability)](https://codeclimate.com/github/<username>/<reponame>/maintainability) -->
+![Build Status](https://github.com/p3t3rbr0/py3-blank-project/actions/workflows/ci.yaml/badge.svg?branch=master)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/blank-project)
+![PyPI Version](https://img.shields.io/pypi/v/blank-project)
+[![Code Coverage](https://codecov.io/github/p3t3rbr0/py3-blank-project/graph/badge.svg?token=CYSG54XRPR)](https://codecov.io/github/p3t3rbr0/py3-blank-project)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b0a123a1539122f6a119/maintainability)](https://codeclimate.com/github/p3t3rbr0/py3-blank-project/maintainability)
 
 A dummy package for quickly starting typical Python projects.
 
