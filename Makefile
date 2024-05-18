@@ -73,7 +73,7 @@ help:
 	echo "deps\t\tInstall all dependencies."
 	echo
 	echo "build-sdist\tBuild a source distrib."
-	echo "build-wheel\tBuild a pure python wheel distrib."
+	echo "build-wheel\tBuild a pure Python wheel distrib."
 	echo "build\t\tBuild both distribs (source and wheel)."
 	echo "upload\t\tUpload built packages to PyPI."
 	echo
@@ -81,7 +81,7 @@ help:
 	echo "tests-cov-json\tRun tests with coverage measure (output to json [coverage.json])."
 	echo "tests-cov-html\tRun tests with coverage measure (output to html [coverage_report/])."
 	echo
-	echo "cleanup\t\tClean up python temporary files and caches."
+	echo "cleanup\t\tClean up Python temporary files and caches."
 	echo "format\t\tFromat the code (by black and isort)."
 	echo "lint\t\tCheck code style, docstring style and types (by flake8, pydocstyle and mypy)."
 	echo
