@@ -49,6 +49,8 @@ $ rm -f init.sh
 
 6. Change `README.md`, `CHANGELOG.md` and `LICENSE` files.
 
+7. Change "dunders" (`author`, `version` and `license`) in `<package>.__init__.py`.
+
 A new blank Python project is ready, create gh-repo and go forward!
 
 ## Available make commands
