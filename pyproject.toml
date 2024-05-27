@@ -1,9 +1,15 @@
 [build-system]
-requires = ["hatchling==1.24.2"]
-build-backend = "hatchling.build"
+requires = ["setuptools==70.0.0"]
+build-backend = "setuptools.build_meta"
 
-[tool.hatch.version]
-path = "blank_project/__init__.py"
+[tool.setuptools]
+packages = ["blank_project"]
+
+[tool.setuptools.dynamic]
+version = {attr = "blank_project.__version__"}
+
+[tool.setuptools.package-data]
+blank_project = ["py.typed"]
 
 [project]
 name = "blank-project"
@@ -47,14 +53,6 @@ dev = [
     "black==24.4.2",
     "pydocstyle==6.3.0",
 ]
-
-[tool.hatch.build.targets.wheel]
-include = ["*.py"]
-exclude = ["venv", "tests", ".*", "coverage*"]
-
-[tool.hatch.build.targets.sdist]
-ignore-vcs = true
-exclude = ["venv", ".*", "coverage*"]
 
 [tool.mypy]
 exclude = ["tests"]

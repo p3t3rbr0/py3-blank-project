@@ -1,3 +1,5 @@
 """A dummy package for quickly starting typical Python projects."""
 
-__version__ = "0.1.0"
+__author__ = "Peter Bro"
+__version__ = "0.2.0"
+__license__ = "MIT"
